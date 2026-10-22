@@ -1,0 +1,18 @@
+train_samples: 2000
+validation_samples: 200
+id_test_samples: 200
+ood_frequency_samples: 200
+ood_smooth_samples: 200
+ood_rough_samples: 200
+u0_train_modes: [1, 5]
+u0_ood_frequency_modes: [6, 10]
+c_train_range: [0.5, 1.5]
+c_ood_smooth_range: [0.7, 1.3]
+c_ood_rough_range: [0.4, 1.6]
+seed_offsets:
+  train: 11
+  validation: 23
+  id_test: 37
+  ood_frequency: 41
+  ood_smooth: 53
+  ood_rough: 67

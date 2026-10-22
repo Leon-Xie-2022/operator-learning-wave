@@ -1,0 +1,9 @@
+pde: "u_tt = d_x(c(x)^2 u_x)"
+domain: [0.0, 1.0]
+boundary_condition: "homogeneous_dirichlet"
+initial_velocity: 0.0
+terminal_time: 1.0
+grid_points: 128
+learning_target: "(u0, c) -> u(., T)"
+main_model: "FNO1D"
+baseline_model: "DeepONet1D"

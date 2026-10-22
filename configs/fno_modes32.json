@@ -1,0 +1,20 @@
+{
+  "data_dir": "data",
+  "output_dir": "results/train_fno_modes32",
+  "checkpoint_dir": "results/checkpoints/fno_modes32",
+  "batch_size": 32,
+  "num_epochs": 100,
+  "learning_rate": 0.001,
+  "loss_type": "relative_l2",
+  "modes": 32,
+  "width": 64,
+  "num_layers": 4,
+  "padding": 0,
+  "enforce_dirichlet": true,
+  "normalize": false,
+  "use_scheduler": false,
+  "scheduler_step": 50,
+  "scheduler_gamma": 0.5,
+  "patience": 10,
+  "seed": 2026
+}

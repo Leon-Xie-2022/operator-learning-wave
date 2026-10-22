@@ -1,0 +1,45 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+tmp_pycache/
+.venv/
+venv/
+env/
+
+# OS and editor state
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Generated datasets, checkpoints, and experiment outputs
+data/*_dataset.npz
+results/
+*.pth
+*.pt
+
+# Paper sources and build outputs are kept out of the code artifact.
+paper/
+icml2026paper/
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+
+# Local archives and exported paper figures
+*.zip
+*_example.pdf
+*_example.png
+initial_displayment_example.*
+Wave_speed_coefficient_example.*
+
+# Local planning notes not needed for reproducibility
+project_plan.md

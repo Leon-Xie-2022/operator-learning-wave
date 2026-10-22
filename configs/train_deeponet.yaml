@@ -1,0 +1,15 @@
+data_dir: data
+output_dir: results/train_deeponet
+checkpoint_dir: results/checkpoints/deeponet
+batch_size: 32
+num_epochs: 100
+learning_rate: 0.001
+loss_type: relative_l2
+branch_hidden: 128
+trunk_hidden: 128
+num_layers: 3
+use_output_bias: true
+enforce_dirichlet: true
+normalize: false
+patience: 10
+seed: 2026
